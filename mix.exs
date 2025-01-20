@@ -42,7 +42,7 @@ defmodule DevAssetProxy.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tesla, "~> 1.4.0"},
+      {:tesla, "~> 1.13.2"},
       {:jason, ">= 1.0.0"},
       {:plug, "~> 1.0"},
       {:dialyzex, "~> 1.1.0", only: :dev},
